@@ -222,6 +222,8 @@ export const getFieldCreationMeta = (fieldType: BasicField): FieldCreateDto => {
       return {
         fieldType,
         ...baseMeta,
+        description:
+          'By signing, I declare that I am the authorised party to this transaction, affirm my identity, and acknowledge that this action constitutes my electronic signature within the meaning of the Electronic Transactions act. I expressly agree and intend that this electronic evidence my consent and binds me to the term and conditions of the transaction above.',
       }
     }
   }
